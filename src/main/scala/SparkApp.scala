@@ -2,7 +2,7 @@ import org.apache.spark.sql._
 import org.apache.spark._
 
 object SparkApp {
-  def sessionSpark1(): Unit = {
+  def sessionSpark(): Unit = {
     //.enableHiveSupport()
     System.setProperty("hadoop.home.dir","C:\\hadoop")
     val ss = SparkSession.builder()
